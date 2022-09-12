@@ -1,0 +1,24 @@
+/* common */
+--root{
+    --white: #FFFFFF;
+    --heavenly: #B4D0E7;
+    --black: #000000;
+    --lightblue: #0061FF;
+    --lightgreen: #A2D39B;
+    --violet: #61082B;
+    --skyblue: #0093CE;
+    --red: #FF1C1C;
+    --darkred: #D5001F;
+    --verylightblue: #B4D0E7;
+    --blue: #0D2481;
+    --yellow: #FFD830;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* I BOTTONI IN BLOCK PERCHè INLINE-BLOCK SE VA A CAPO SI SPEZZA TUTTO */
+
