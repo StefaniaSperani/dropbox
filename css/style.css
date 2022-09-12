@@ -13,6 +13,7 @@
     --blue: #0D2481;
     --yellow: #FFD830;
     --grey: #D0D0D3;
+    --darkgrey: #bdbdbe;
 }
 
 *{
@@ -139,7 +140,13 @@ nav span{
     text-align: center;
 }
 
-
+.btn-card{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 12px 20px;
+    font-size: 15px;
+}
 /* Main */
 
 h2{
@@ -160,17 +167,70 @@ main label{
 
 .flex-card{
     display: flex;
+    align-items: stretch;
 }
 
 .card{
-    width: calc(100% / 3);
-    margin-top: 30px;
+    width: calc(100% -20/ 3);
+    margin-top: 50px;
     text-align: center;
     border: 1px solid var(--grey);
 }
 
+.user{
+    padding: 10px ;
+    border-bottom: 1px solid  var(--grey);
+}
+
+h3 {
+    font-size: 25px;
+}
+.text-card {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    flex-flow: column;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.grey{
+    color: var(--darkgrey);
+    padding-bottom: 40px;
+}
+
+li {
+    padding-bottom: 20px;
+    list-style-type: none;
+}
 
 
+.shop{
+    padding: 30px 0;
+}
+
+a{
+    color: #1800EE;
+}
+
+hr{
+    width: 20%;
+}
+
+.fa-check{
+    color: var(--lightblue);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4{
+    padding: 45px 0;
+}
+
+.card2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 /* footer */
 footer{
     background-color: var(--black);
