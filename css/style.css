@@ -191,7 +191,7 @@ h3 {
     justify-content: flex-start;
     flex-flow: column;
     padding: 25px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .grey{
@@ -200,6 +200,7 @@ h3 {
 }
 
 li {
+    display: flex;
     padding-bottom: 20px;
     list-style-type: none;
 }
@@ -228,8 +229,8 @@ h4{
 }
 
 .card2{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /* footer */
 footer{
