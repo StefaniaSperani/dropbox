@@ -12,6 +12,7 @@
     --verylightblue: #B4D0E7;
     --blue: #0D2481;
     --yellow: #FFD830;
+    --grey: #D0D0D3;
 }
 
 *{
@@ -134,10 +135,45 @@ nav span{
     color: var(--white);
     font-size: 18px;
     padding: 8px 18px;
+    margin-right: 5px;
     text-align: center;
 }
+
+
+/* Main */
+
+h2{
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
+main label{
+    margin-right: 50px;
+}
+
+/* Card offerte */
+#piani{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flex-card{
+    display: flex;
+}
+
+.card{
+    width: calc(100% / 3);
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid var(--grey);
+}
+
+
+
 /* footer */
 footer{
     background-color: var(--black);
     color: var(--white);
 }
+
