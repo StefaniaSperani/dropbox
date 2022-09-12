@@ -23,6 +23,7 @@
 body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .container{
@@ -62,6 +63,34 @@ header h1{
     padding-bottom: 70px;
 }
 
+/* Nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    padding-top: 0px;
+    font-size: 18px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    padding: 0 20px;
+}
+
+nav span{
+    padding: 0 20px;
+}
+
+/* Box Hero */
 #hero{
     background-color: var(--heavenly);
     padding-top: 80px;
@@ -76,6 +105,37 @@ header h1{
     width: 100%;
 }
 
+#hero .btn-lightblue{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 12px 20px;
+}
+
+.fa-arrow-down{
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+/* Bottoni nav */
+
+.accedi{
+    display: block;
+    border: none;
+    background-color: var(--white);
+    font-size: 18px;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.btn-lightblue{
+    display: block;
+    border: none;
+    background-color: var(--lightblue);
+    color: var(--white);
+    font-size: 18px;
+    padding: 8px 18px;
+    text-align: center;
+}
 /* footer */
 footer{
     background-color: var(--black);
