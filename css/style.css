@@ -317,19 +317,19 @@ h4{
 }
 
 .center{
-    overflow-y: auto;
+    width: calc(100vw - 60vw);
 }
-.left, .right{
+.left-box, .right-box{
     width: 30vw;
 }
 
 .flex-squaresection{
-    display: flex;  
+    display: flex;
 }
 .flex-square{
     display: flex;
     justify-content: center;
-    flex-flow: wrap;
+
 }
 
 .lightgreen{
