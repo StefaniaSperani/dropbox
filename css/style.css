@@ -22,6 +22,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
@@ -48,6 +52,11 @@ body {
 
 .width70{
     width: 70%;
+}
+
+.btn-lightblue:hover{
+    cursor: pointer;
+    background-color: #0062ffb2;
 }
 /* header */
 header nav{
@@ -90,6 +99,7 @@ nav img{
 
 nav span{
     padding: 0 20px;
+    cursor: pointer;
 }
 
 /* Box Hero */
@@ -128,6 +138,11 @@ nav span{
     font-size: 18px;
     padding: 15px 30px;
     text-align: center;
+}
+
+.accedi:hover{
+    cursor: pointer;
+    color: #dad6d6;
 }
 
 .btn-lightblue{
@@ -247,6 +262,7 @@ hr{
 .info{
     padding-top: 20px;
 }
+
 .fa-check{
     color: var(--lightblue);
     font-weight: bold;
@@ -272,13 +288,16 @@ hr{
     display: flex;
     justify-content: flex-start;
 }
+
 .second h3{
     padding-bottom: 20px;
 }
+
 .second span{
     padding: 50px;
     line-height: 25px;
 }
+
 .second button{
     background-color: var(--white);
     color: var(--black);
@@ -289,6 +308,10 @@ hr{
     margin-top: 20px;
 }
 
+.second button:hover{
+    cursor: pointer;
+    color: #dad6d6;
+}
 
 /* Terza section */
 
@@ -435,6 +458,10 @@ hr{
     font-size: 20px;
 }
 
+.sixth button:hover{
+    cursor: pointer;
+    color: #dad6d6;
+}
 /* Settima sezione */
 .seventh hr{
     width: 100%;
@@ -448,6 +475,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .answer{
@@ -507,3 +535,4 @@ footer button{
 .fa-earth-americas{
     padding-right: 5px;
 }
+
