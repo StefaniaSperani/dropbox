@@ -278,6 +278,7 @@ h4{
 }
 
 /* Terza section */
+
 .cards3{
     display: flex;
     flex-wrap: wrap;
@@ -306,6 +307,31 @@ h4{
 
 /* Quinto container */
 
+.fifth img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.center img{
+    filter: none;
+}
+
+.center{
+    overflow-y: auto;
+}
+.left, .right{
+    width: 30vw;
+}
+
+.flex-squaresection{
+    display: flex;  
+}
+.flex-square{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
 .lightgreen{
     background-color: var(--lightgreen);
     width: 15vw;
@@ -330,22 +356,29 @@ h4{
     height: 15vw;
 }
 
-.left, .right{
-    width: 30vw;
-}
-.fifth img{
-    width: 50%;
-    filter: invert(1);
+        /* Right */
+.darkred{
+    background-color: var(--darkred);
+    width: 15vw;
+    height: 15vw;
 }
 
-.flex-squaresection{
-    display: flex;
-    flex-flow: wrap;
-    
+.heaven{
+    background-color: var(--heavenly);
+    width: 15vw;
+    height: 15vw;
 }
-.flex-square{
-    display: flex;
-    justify-content: center;
+
+.blue{
+    background-color: var(--blue);
+    width: 15vw;
+    height: 15vw;
+}
+
+.yellow{
+    background-color: var(--yellow);
+    width: 15vw;
+    height: 15vw;
 }
 
 
@@ -357,13 +390,27 @@ h4{
 
 /* Sesta section */
 
-.sixth{
+.sixth-bg{
     background-color: var(--heavenly);
 }
 
-.btn-six{
-    border: none;
+.sixth{
+    display: flex; 
 }
+
+.sixth button{
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+}
+
+
+
+
+
 /* footer */
 footer{
     background-color: var(--black);
