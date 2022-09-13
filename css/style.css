@@ -219,11 +219,7 @@ h3 {
 
 .details .btn-lightblue {
     white-space: nowrap;
-
 }
-
-
-
 
 .grey{
     color: var(--darkgrey);
@@ -318,7 +314,7 @@ h4{
     padding-bottom: 70px;
 }
 
-.third .center{
+.third .scnd{
     margin: 0 20px;
 }
 
@@ -329,15 +325,20 @@ h4{
     filter: invert(1);
 }
 
-.center img{
+.fifth .center img{
     filter: none;
+    padding-bottom: 40px;
 }
 
+.center, .txt{
+    padding: 40px 0;
+}
 .fifth .center{
     width: calc(100% - 60vw);
     padding: 100px;
     overflow-y: auto;
 }
+
 .left-box, .right-box{
     width: 30vw;
     display: flex;
@@ -347,6 +348,7 @@ h4{
 .flex-squaresection{
     display: flex;
 }
+
 .flex-square{
     display: flex;
     justify-content: center;
@@ -433,8 +435,30 @@ h4{
     font-size: 20px;
 }
 
+/* Settima sezione */
+.seventh hr{
+    width: 100%;
+}
 
+.quest p{
+    padding: 40px 0;
+}
 
+.quest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer{
+    display: none;
+    padding-bottom: 15px;
+}
+
+.quest:hover + .answer{
+    display: inline-block;
+    /* cursor: pointer; */
+}
 
 
 /* footer */
