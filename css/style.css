@@ -114,8 +114,9 @@ nav span{
 }
 
 .fa-arrow-down{
-    font-size: 60px;
-    padding-top: 60px;
+    font-size: 50px;
+    padding-top: 50px;
+    color: var(--black);
 }
 
 /* Bottoni nav */
@@ -130,7 +131,7 @@ nav span{
 }
 
 .btn-lightblue{
-    display: inline-block;
+    display: block;
     border: none;
     background-color: var(--lightblue);
     color: var(--white);
@@ -303,7 +304,66 @@ h4{
     margin: 0 20px;
 }
 
+/* Quinto container */
 
+.lightgreen{
+    background-color: var(--lightgreen);
+    width: 15vw;
+    height: 15vw;
+}
+
+.purple{
+    background-color: var(--violet);
+    width: 15vw;
+    height: 15vw;
+}
+
+.lightblue{
+    background-color: var(--lightblue);
+    width: 15vw;
+    height: 15vw;
+}
+
+.red{
+    background-color: var(--red);
+    width: 15vw;
+    height: 15vw;
+}
+
+.left, .right{
+    width: 30vw;
+}
+.fifth img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.flex-squaresection{
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.flex-square{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Sesta section */
+
+.sixth{
+    background-color: var(--heavenly);
+}
+
+.btn-six{
+    border: none;
+}
 /* footer */
 footer{
     background-color: var(--black);
