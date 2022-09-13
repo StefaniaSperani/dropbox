@@ -317,10 +317,13 @@ h4{
 }
 
 .center{
-    width: calc(100vw - 60vw);
+    width: calc(100% - 60vw);
+    overflow-y: auto;
 }
 .left-box, .right-box{
     width: 30vw;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .flex-squaresection{
@@ -329,6 +332,7 @@ h4{
 .flex-square{
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -381,13 +385,6 @@ h4{
     height: 15vw;
 }
 
-
-
-
-
-
-
-
 /* Sesta section */
 
 .sixth-bg{
@@ -398,10 +395,14 @@ h4{
     display: flex; 
 }
 
+.sixth h2{
+    color: #61082B;
+}
 .flexsix{
     display: flex;
-    flex-flow: row;
+    align-items: flex-start;
 }
+
 .sixth button{
     background-color: var(--white);
     color: var(--black);
