@@ -226,7 +226,7 @@ h3 {
     padding-bottom: 40px;
 }
 
-li {
+.card li {
     display: flex;
     padding-bottom: 20px;
     list-style-type: none;
@@ -253,7 +253,7 @@ hr{
     font-size: 20px;
 }
 
-h4{
+.card h4{
     padding: 45px 0;
 }
 
@@ -465,5 +465,45 @@ h4{
 footer{
     background-color: var(--black);
     color: var(--white);
+    padding: 100px;
 }
 
+.flexfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer h4{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--white);
+    line-height: 35px;
+}
+
+footer nav{
+    padding-bottom: 170px;
+}
+
+.lingua{
+    padding-top: 100px;
+}
+
+footer button{
+    border: none;
+    background-color: var(--black);
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-earth-americas{
+    padding-right: 5px;
+}
