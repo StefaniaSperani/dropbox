@@ -712,3 +712,18 @@ footer button{
 
 
 /* MAIN */
+
+.imglogin{
+    width: 40%;
+    margin: 200px auto;
+}
+
+.label-start{
+    width: calc(100% / 2);
+    justify-content: space-between;
+}
+
+.label-social{
+    align-items: flex-start;
+    justify-content: center;
+}
