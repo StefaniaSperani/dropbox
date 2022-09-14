@@ -610,6 +610,7 @@ hr{
   }
 /* footer */
 .foot{
+    width: 100%;
     background-color: var(--black);
     color: var(--white);
     padding: 100px;
@@ -718,12 +719,61 @@ footer button{
     margin: 200px auto;
 }
 
-.label-start{
-    width: calc(100% / 2);
+.login-header{
+    width: 100%;
+    display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.label-start{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .label-social{
+    display: flex;
     align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
+}
+
+.social{
+    width: 100%;
+    background-color: var(--white);
+    border: 3px solid black;
+    font-size: 19px;
+    margin: 5px 0;
+}
+
+.social a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.social i{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* Footer */
+
+.foot2{
+    width: 40%;
+    margin: 0 auto;
+    color: #767676;
+}
+
+.foot2 a{
+    color: #767676;
+}
+
+.foot2 hr{
+    width: 40%;
+}
+
+.foot2 ul{
+    padding top: 50px;
 }
