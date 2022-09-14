@@ -740,6 +740,7 @@ footer button{
 }
 
 .social{
+    display: flex;
     width: 100%;
     background-color: var(--white);
     border: 3px solid black;
@@ -747,14 +748,13 @@ footer button{
     margin: 5px 0;
 }
 
+
 .social a{
     color: var(--black);
     text-decoration: none;
 }
 
 .social i{
-    display: flex;
-    justify-content: center;
     padding: 5px;
 }
 
@@ -784,8 +784,9 @@ footer button{
 
 .size-small{
     font-size: 15px;
-
 }
+
+
 /* Footer */
 
 .foot2{
@@ -799,9 +800,33 @@ footer button{
 }
 
 .foot2 hr{
-    width: 40%;
+    width: 100%;
 }
 
 .foot2 ul{
-    padding top: 50px;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.foot2 li{
+    margin: -15px 0;
+}
+
+.foot2 li:hover{
+    text-decoration: underline;
+}
+.foot2 h4{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.pad-foot{
+    padding-top: 30px;
+}
+
+.lingua2{
+    padding-top: 30px;
+}
+
+.foot2 .fa-caret-up:hover{
+    cursor: pointer;
 }
