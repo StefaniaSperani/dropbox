@@ -42,8 +42,6 @@ body {
     margin: 150px auto;
 }
 
-
-
 .flexbox{
     display: flex;
 }
@@ -95,14 +93,53 @@ nav{
     display: flex;
     align-items: center;
 }
+
 nav img{
     padding: 0 20px;
 }
 
-nav span{
-    padding: 0 20px;
+/* Dropdown */
+
+.dropbtn {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 18px;
+    font-size: 18px;
+    border: none;
     cursor: pointer;
-}
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(197, 188, 188);
+  }
 
 /* Box Hero */
 #hero{
@@ -142,7 +179,12 @@ nav span{
     text-align: center;
 }
 
-.accedi:hover{
+.accedi a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.accedi a:hover{
     cursor: pointer;
     color: #dad6d6;
 }
@@ -180,6 +222,69 @@ main label{
     cursor: pointer;
 }
 
+/* checkmark */
+
+.check-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+ 
+  .check-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+
+  .check-radio:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+
+  .check-radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .check-radio input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .check-radio .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
 /* Card offerte */
 #piani{
     display: flex;
@@ -354,21 +459,26 @@ hr{
 .fifth .center img{
     filter: none;
     padding-bottom: 40px;
+    padding-left: 35px;
 }
 
 .center, .txt{
+    width: 90%;
     padding: 40px 0;
+    margin: 0 auto;
 }
+
 .fifth .center{
+    display: flex;
+    height: 30vw;
     width: calc(100% - 60vw);
-    padding: 100px;
     overflow-y: auto;
 }
 
 .left-box, .right-box{
     width: 30vw;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
 }
 
 .flex-squaresection{
@@ -386,6 +496,7 @@ hr{
     background-color: var(--lightgreen);
     width: 15vw;
     height: 15vw;
+    border: 20px solid rgba(255, 255, 255, 0.349);
 }
 
 .purple{
@@ -488,12 +599,17 @@ hr{
 
 .quest:hover + .answer{
     display: inline-block;
-    /* cursor: pointer; */
 }
 
+.fa-chevron-down:hover{
+    animation: chevron 1s ;
+}
 
+@keyframes chevron {
+    50% {transform: rotate(180deg);}
+  }
 /* footer */
-footer{
+.foot{
     background-color: var(--black);
     color: var(--white);
     padding: 100px;
@@ -538,3 +654,61 @@ footer button{
 .fa-earth-americas{
     padding-right: 5px;
 }
+
+
+
+/* SECONDA PAGINA LOG-IN */
+
+/* Header */
+.nav2 {
+    width: 100%;
+    border-bottom: 1px solid #d0d4d9;
+    box-shadow: 0px 1px 1px #d0d4d9;
+    display: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.inner-nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.nav2 img{
+    width: 200px;
+}
+
+.try{
+    border: 2px solid var(--lightblue);
+    color: var(--lightblue);
+    background-color: var(--white);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.download {
+    border: none;
+    background-color: var(--white);
+    font-size: 15px;
+}
+
+.download a{
+    text-decoration: none;
+}
+
+.nav2 button:hover{
+    color: var(--blue);
+}
+
+.nav2 .download:hover{
+    text-decoration: underline;
+}
+
+
+/* MAIN */
