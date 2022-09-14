@@ -758,6 +758,34 @@ footer button{
     padding: 5px;
 }
 
+.or {
+    text-align: center;
+    padding: 25px 0;
+}
+
+#fname{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.imglogin label{
+    padding-top: 15px;
+}
+
+.pad-top{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+#ricordami{
+    cursor: pointer;
+}
+
+.size-small{
+    font-size: 15px;
+
+}
 /* Footer */
 
 .foot2{
